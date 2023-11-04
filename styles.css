@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.introduction {
+    background-color: black;
+    padding: 50px 50px;
+    color: white;
+    background-attachment: fixed !important;
+    background-image: url(https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg) !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+.intro-title {
+    font-family: Lexend Deca, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+    margin: 0px 0px 16px;
+    font-weight: 500;
+}
+
+.intro-detail-flex {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.intro-card {
+    text-align: center;
+    padding: 20px 20px;
+
+    min-width: 400px;
+    min-height: 400px;
+    /* padding-left: 30px; */
+    margin-left: 30px;
+    background-image: url(https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-texture-bg.jpg) !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+.intro-card-title {
+    color: #2e475d;
+    font-size: 18px;
+}
+.intro-card-description{
+    color: #bf2b2b !important;
+    font-size: 60px;
+}
+.intro-card-detail-text{
+    display: block;
+    font-size: 18px;
+    color: #2e475d;
+}
+
+.intro-card-live{
+    font-family: Lexend Deca, serif;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-transform: none;
+    background-color: black;
+}
+.intro-card-address-text{
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+    color: #2e475d;
+    font-size: 16px;
+}
+.secure-btn{
+    border: 3px solid #ff6633;
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: rgba(255, 102, 51, 1.0);
+    border-radius: 6px;
+    color: #FFFFFF;
+    fill: #FFFFFF;
+    font-size: 18px;
+    text-transform: none;
+}
+.companies-wrapper{
+    background-image: url(https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner-1.jpg) !important;
+    background-size: cover !important;
+    background-position: center bottom !important;
+    background-repeat: no-repeat !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    padding-left: 40px;
+    text-align: center;
+
+
+}
+
+
+.AI-Container{
+
+    background-image: url(https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-grey-banner.jpg) !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+li{
+margin: 20px;
+font-size: 20px;
+}
+.AI-Container{
+    padding: 40px;
+}
+
+.AI-text{
+    text-align: center;
+    font-size: 42px;
+}
+
+.card{
+    text-align: center;
+    
+}
+
+.meet-your-hosts {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+  }
+  .meet-your-hosts-content {
+    width: 90%;
+    max-width: 1110px;
+    padding: 40px;
+  }
+  .meet-your-hosts-heading {
+    color: #fff;
+    text-align: center;
+    font-size: 44px;
+    margin: 0;
+    font-weight: 500;
+  }
+  .meet-your-hosts-cards-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 768px) {
+    .meet-your-hosts-cards-container {
+      flex-direction: column;
+    }
+  }
+  .meet-your-hosts-card {
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    color: #fff;
+    width: 30%;
+  }
+  @media screen and (max-width: 768px) {
+    .meet-your-hosts-card {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  .meet-your-host-image {
+    width: 100%;
+  }
+  .meet-your-host-name {
+    font-size: 26px;
+  }
+  .meet-your-host-position {
+    font-size: 20px;
+  }
+  .meet-your-hosts-description {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  /* ####################### */
+  
+  .bottom-card-section {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .bottom-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1110px;
+    padding: 40px;
+  }
+  .bottom-card-slot-heading {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin: 0;
+  }
+  .bottom-card-slot-sub-heading {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .bottom-card-slot-time-venue {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .footer-section {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-content {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 90%;
+    max-width: 1110px;
+  }
+  .footer-company-logo {
+    max-width: 230px;
+  }
+  .footer-copyright {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .footer-privacy-site-map {
+    align-self: flex-end;
+    margin: 0;
+    color: #fff;
+  }
+  .a-link {
+    text-decoration: none;
+    color: #fff;
+  }
